@@ -23,8 +23,10 @@
         <div id="main-wrapper">
             @include('layouts.frontend.common.header')
             <!--Landing contents-->
+            
             @yield('home')
             @yield('login')
+            @yield('register')
             <!--Landing contents End-->
             @include('layouts.frontend.common.footer')
         </div>

@@ -51,7 +51,7 @@
                                 <a href="#">Forgotten pasward?</a>
 
                             </div>
-                            <div class="col-12"><input type="submit" value="LOGIN">  {{ __('Log in') }}</div>
+                            <div class="col-12"><input type="submit" value="{{ __('Log in') }}">  </div>
                         </div>
                     </form>
                     <h4>Don’t have account? please click <a href="{{route('register')}}">Register</a></h4>
@@ -82,7 +82,31 @@
         </div>
     </div>
 </div>
- <!--Login Section End-->
+<!--Login Section End-->
+<!--Projects section start-->
+<div class="newslatter-section newslatter-section-tow section pt-xs-20 pb-xs-50">
+<div class="container">
+    
+    <div class="row">
+        <div class="col-12">
+            <!--News Latter Area Start-->
+            <div class="news-latter-area newslatter-black">
+                <div class="news-latter-box">
+                    <h3>SUBSCRIBE OUR NEWSLETTER, GET ALL <br> LATEST NEWS, UPDATE, VIDEOS AND OFFERS </h3>
+                    <form action="#">
+                        <input type="text" placeholder="Enter your email here">
+                    </form>
+                </div>
+            </div>
+            <!--News Latter Area End-->
+        </div> 
+    </div>
+    
+</div>
+
+</div>
+<!--Projects section end-->
+
 
 
 
